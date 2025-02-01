@@ -68,8 +68,23 @@ sudo nano /var/www/nextcloud/config/config.php
 
 sudo nano /etc/apache2/sites-available/000-default.conf
 
-#Change "DocumentRoot" to "/var/www/nextcloud"
+#Change "/var/..." in DocumentRoot to "/var/www/nextcloud"
 
 sudo a2ensite 000-default.conf
 
 sudo systemctl restart apache2
+
+
+# Fix Nextcloud
+
+If you get Internal Server Occured, follow these steps
+
+sudo nano /var/www/nextcloud/data/nextcloud.log
+
+if something is there, ask gemini at gemini.google.com
+
+IF NOT...
+
+sudo nano /var/log/apache2/error.log
+
+again, if there is something ask gemini
