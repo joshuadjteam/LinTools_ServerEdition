@@ -130,3 +130,6 @@ Change the PHPs line to
 ;   Default Value: On 
 
 ;   Development Value: On
+
+
+Then do   sudo systemctl restart apache2
