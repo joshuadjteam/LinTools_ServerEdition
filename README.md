@@ -77,6 +77,8 @@ sudo a2ensite 000-default.conf
 
 sudo systemctl restart apache2
 
+#username and password is admin
+
 
 # Fix Nextcloud
 
