@@ -88,3 +88,9 @@ IF NOT...
 sudo nano /var/log/apache2/error.log
 
 again, if there is something ask gemini
+
+# PHP Check
+
+do "sudo nano /etc/php/VER/apache2.ini
+
+Change VER to PHP version
