@@ -16,4 +16,4 @@ dnf install webmin
 echo Please go to localhost:10000
 
 # NextCloud Only Install
-*Please stop when highlighted*
+*Please stop when "#text" is shown*
