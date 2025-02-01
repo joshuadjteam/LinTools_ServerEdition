@@ -94,3 +94,39 @@ again, if there is something ask gemini
 do "sudo nano /etc/php/VER/apache2.ini
 
 Change VER to PHP version
+
+
+Change the PHPs line to
+
+; display_errors
+
+;   Default Value: Off
+
+;   Development Value: On
+
+;   Production Value: Off
+
+
+; display_startup_errors
+
+;   Default Value: On
+
+;   Development Value: On
+
+;   Production Value: Off
+
+
+; error_reporting
+
+;   Default Value: E_ALL & ~E_DEPRECATED & ~E_STRICT
+
+;   Development Value: E_ALL
+
+;   Production Value: E_ALL & ~E_DEPRECATED & ~E_STRICT
+
+
+; log_errors
+
+;   Default Value: On 
+
+;   Development Value: On
