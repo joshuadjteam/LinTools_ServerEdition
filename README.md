@@ -66,6 +66,9 @@ sudo -u www-data php occ maintenance:install --database "mysql" --database-name 
 
 sudo nano /var/www/nextcloud/config/config.php
 
+![Screenshot from 2025-02-01 14-04-23](https://github.com/user-attachments/assets/9f8f7140-faf9-4992-b92f-ea791393ee5e)
+
+
 sudo nano /etc/apache2/sites-available/000-default.conf
 
 #Change "/var/..." in DocumentRoot to "/var/www/nextcloud"
