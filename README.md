@@ -14,3 +14,6 @@ apt-get install webmin --install-recommends
 dnf install webmin
 
 echo Please go to localhost:10000
+
+# NextCloud Only Install
+*Please stop when highlighted*
