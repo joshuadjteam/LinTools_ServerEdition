@@ -133,3 +133,6 @@ Change the PHPs line to
 
 
 Then do   sudo systemctl restart apache2
+
+Then do   sudo nano /var/log/apache2/error.log
+
